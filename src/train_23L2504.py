@@ -20,7 +20,7 @@ import joblib
 # Hyperparameters (Part 3 asks you to add one here, e.g. learning rate
 # equivalent - for RandomForest we use n_estimators / max_depth)
 # --------------------------------------------------------------------
-N_ESTIMATORS = 100      # <-- this is the "hyperparameter variable" you will modify in Part 3
+N_ESTIMATORS = 200      # <-- this is the "hyperparameter variable" you will modify in Part 3
 MAX_DEPTH = 10
 RANDOM_STATE = 42
 
