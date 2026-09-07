@@ -50,6 +50,7 @@ def train_model(df: pd.DataFrame):
 
     # Keep only numeric columns for this simple baseline
     X = X.select_dtypes(include=["number"])
+    X = (X - X.mean()) / X.std() 
 
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, random_state=RANDOM_STATE
